@@ -30,8 +30,8 @@ From the _Essential Algorithms: A Practical Approach to Computer Algorithms_ boo
 
 # How to compile & run you program
 
-- _You must document compilation and execution here_
-- _Don't forget to document which algorithm you're implementing_
+- The way this code works is basically very simple, since you just have to run it normally, you don't need to add any parameters, because when you run it, the program itself, in the terminal, will ask you to write the value of n, and once you write it and hit enter, obviously it has to be an integer, since if you write any other character it won't work. Once you do that, it will print the coordinates in the terminal.
+- El funcionamiento se basa en el uso de recursión. La idea es que la función principal koch se llama a sí misma para dividir un segmento inicial en partes más pequeñas A,B,C,D,E y generar así la curva. Al inicio, el programa traza una línea recta entre los puntos (0,0) y (100,0). Luego, según el valor de n, cada segmento se divide en tres partes iguales. En la parte central se construye un “pico” que corresponde a un triángulo equilátero, cambiando la dirección con ayuda de funciones trigonométricas (cos y sin).
 
 # Grading Policy
 
